@@ -11,6 +11,6 @@ func main() {
 	var soma int
 	soma = numeros[0] + numeros[1] + numeros[2]
 
-	fmt.Printf("A soma dos números do Array é: %d", soma)
+	fmt.Printf("A soma dos números do Array é: %d\n", soma)
 
 }
