@@ -4,9 +4,11 @@ import "fmt"
 
 func main() {
 
-	array := [4]float64{1.5, 2.7, 6.4, 1.1}
-	fmt.Println("Escreva 4 números")
-	fmt.Scan(&array)
+	array := [4]float64{}
+	for i := 0; i < len(array); i++ {
+		fmt.Printf("\n Escreva o número %d da lista: ", i+1)
+		fmt.Scan(&array[i])
+	}
 
 	var multiplicação float64
 	multiplicação = 1
